@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
- * The class managing the percolation.
+ * The class is managing the percolation.
  *
  * @author svoit
  */

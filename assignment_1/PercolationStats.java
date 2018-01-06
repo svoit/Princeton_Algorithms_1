@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
 /**
- * The class with main method to perform multiple percolation computation experiments.
+ * The class with main method performs multiple percolation computation experiments.
  *
  * @author svoit
  */
@@ -11,8 +11,8 @@ public class PercolationStats {
 
     private final double mean;
     private final double stddev;
-    private final double confidenceLo;
-    private final double confidenceHi;
+    private final double confidenceLow;
+    private final double confidenceHigh;
 
     private final double[] experimentScores;
 
@@ -50,8 +50,8 @@ public class PercolationStats {
         mean = StdStats.mean(experimentScores);
         stddev = StdStats.stddev(experimentScores);
         double confidenceFraction = (1.96 * stddev()) / Math.sqrt(experimentScores.length);
-        confidenceLo = mean - confidenceFraction;
-        confidenceHi = mean + confidenceFraction;
+        confidenceLow = mean - confidenceFraction;
+        confidenceHigh = mean + confidenceFraction;
     }
 
     public double mean() {
@@ -62,12 +62,12 @@ public class PercolationStats {
         return stddev;
     }
 
-    public double confidenceLo() {
-        return confidenceLo;
+    public double confidenceLow() {
+        return confidenceLow;
     }
 
-    public double confidenceHi() {
-        return confidenceHi;
+    public double confidenceHigh() {
+        return confidenceHigh;
     }
 
     public static void main(String[] args) {
@@ -77,6 +77,6 @@ public class PercolationStats {
 
         StdOut.printf("mean                    = %f\n", percolationStats.mean());
         StdOut.printf("stddev                  = %f\n", percolationStats.stddev());
-        StdOut.println("95% confidence interval = " + percolationStats.confidenceLo() + ", " + percolationStats.confidenceHi());
+        StdOut.println("95% confidence interval = " + percolationStats.confidenceLow() + ", " + percolationStats.confidenceHigh());
     }
 }
