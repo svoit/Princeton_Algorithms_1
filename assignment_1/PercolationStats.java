@@ -14,7 +14,6 @@ public class PercolationStats {
     private final double confidenceLow;
     private final double confidenceHigh;
 
-    private final double[] experimentScores;
 
     public PercolationStats(int n, int trials) {
 
@@ -26,7 +25,7 @@ public class PercolationStats {
             throw new IllegalArgumentException("The number of experiments must be bigger than zero");
         }
 
-        experimentScores = new double[trials];
+        double[] experimentScores = new double[trials];
         for (int i = 0; i < trials; i++) {
             Percolation percolation = new Percolation(n);
 
