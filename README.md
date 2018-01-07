@@ -4,10 +4,10 @@
 
 ------
 
+* [I. Percolation (Week 1)](/assignment_1)
 
-## I. Percolation (Week 1)
+* [II. Deques and Randomized Queues (Week 2)](/assignment_2)
 
-## II. Deques and Randomized Queues (Week 2)
+* [III. Collinear Points (Week 3)](/assignment_3)
 
-## III. Collinear Points (Week 3)
 
