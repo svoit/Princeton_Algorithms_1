@@ -4,7 +4,7 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/svoit/Princeton_Algorithms_1)
 [![HitCount](http://hits.dwyl.com/svoit/Princeton_Algorithms_1.svg)](http://hits.dwyl.com/svoit/Princeton_Algorithms_1)
-![GitHub watchers](https://img.shields.io/github/watchers/svoit/Princeton_Algorithms_1?label=Watch&style=social)
+![GitHub watchers](https://img.shields.io/github/stars/svoit/Princeton_Algorithms_1?style=social)
 ![GitHub followers](https://img.shields.io/github/followers/svoit?label=Follow&style=social)
 
 ------
