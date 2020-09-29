@@ -2,6 +2,7 @@
 # Algorithms, Part I 
 #### by Princeton University - Coursera.org
 
+![GitHub top language](https://img.shields.io/github/languages/top/svoit/Princeton_Algorithms_1)
 [![HitCount](http://hits.dwyl.com/svoit/Princeton_Algorithms_1.svg)](http://hits.dwyl.com/svoit/Princeton_Algorithms_1)
 
 ------
