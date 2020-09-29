@@ -1,6 +1,8 @@
 
-# <p align="center">Algorithms, Part I <br> by Princeton University - Coursera.org</p>
+# Algorithms, Part I 
+#### by Princeton University - Coursera.org
 
+[![HitCount](http://hits.dwyl.com/svoit/Princeton_Algorithms_1.svg)](http://hits.dwyl.com/svoit/Princeton_Algorithms_1)
 
 ------
 
